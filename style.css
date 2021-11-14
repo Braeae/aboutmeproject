@@ -102,6 +102,8 @@ p {
 #contactme:hover {
   background-color: lightsalmon;
   border-radius: 18px;
+  border: 1px transparent lightsalmon;
+  border-radius: 18px;
   transition: all 10ms ease-in-out;
 }
 
