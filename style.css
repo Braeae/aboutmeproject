@@ -102,9 +102,15 @@ p {
 #contactme:hover {
   background-color: lightsalmon;
   border-radius: 18px;
-  border: 1px transparent lightsalmon;
+  transition: border 1ms ease;
+}
+
+#home:hover:after,
+#abtme:hover:after,
+#contactme:hover:after {
+  background-color: lightsalmon;
   border-radius: 18px;
-  transition: all 10ms ease-in-out;
+  transition: border 1ms ease;
 }
 
 #navlink {
@@ -138,7 +144,6 @@ p {
   height: auto;
   border: 1px gray;
   border-radius: 3px;
-
   background-color: lightsalmon;
 }
 
