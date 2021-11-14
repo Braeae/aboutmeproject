@@ -100,8 +100,9 @@ p {
 #home:hover,
 #abtme:hover,
 #contactme:hover {
-  color: darksalmon;
-  font-weight: 600;
+  background-color: lightsalmon;
+  border-radius: 18px;
+  transition: all 10ms ease-in-out;
 }
 
 #navlink {
