@@ -97,20 +97,16 @@ p {
   text-align: center;
 }
 
+#home,
+#abtme,
+#contactme {
+  border-radius: 18px;
+  transition: border 1ms ease;
+}
 #home:hover,
 #abtme:hover,
 #contactme:hover {
   background-color: lightsalmon;
-  border-radius: 18px;
-  transition: border 1ms ease;
-}
-
-#home:hover:after,
-#abtme:hover:after,
-#contactme:hover:after {
-  background-color: lightsalmon;
-  border-radius: 18px;
-  transition: border 1ms ease;
 }
 
 #navlink {
